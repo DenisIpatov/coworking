@@ -1,0 +1,63 @@
+@media (min-width: 0px)and (max-width: 767.98px) {
+    ul.navbar-nav{
+        float: right;
+        text-align: right;
+        background-color: rgba(50,50, 50, 0.8);
+        li>a{
+            font-size: 26px;
+        }
+    }
+    .wrapText {
+        h2.header {
+            font-size: 26px;
+        }
+    }
+}
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (min-width: 576px) { 
+    #jumbo{
+        .jumbotext{
+            h1{
+                font-size: 48px;
+            }
+        }
+    }
+
+ }
+
+// Средние девайсы («таблетки», >= 768px)
+@media (min-width: 768px) { 
+    #jumbo{
+        .jumbotext{
+            h1{
+                font-size: 60px;
+            }
+        }
+    }
+ }
+
+// Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) { 
+    #jumbo{
+        .jumbotext{
+            h1{
+                font-size: 80px;
+            }
+        }
+    }
+    .hamburger{
+        display: none;
+    }
+ }
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) {
+    #jumbo{
+        .jumbotext{
+            h1{
+                font-size: 120px;
+            }
+        }
+    }
+  }
+
