@@ -37,7 +37,7 @@ button.navbar-toggler {
 
 #jumbo {
   height: 1048px;
-  background: url(../img/cowork.webp) no-repeat no-repeat;
+  background: url(../img/cowork.jpg) no-repeat no-repeat;
   background-position: center center;
   background-size: cover;
   display: -webkit-box;
@@ -133,7 +133,8 @@ section#community .carousel .item a img {
   #ploshadkiItems .ploshItem {
     width: 50%;
     height: 523px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     #ploshadkiItems .ploshItem h2 {
       color: #fff;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,19 +156,19 @@ section#community .carousel .item a img {
         transition: all 0.3s;
         opacity: 1; }
   #ploshadkiItems .ploshItem1 {
-    background: url(../img/ploshItem1.webp) no-repeat no-repeat;
+    background: url(../img/ploshItem1.jpg) no-repeat no-repeat;
     background-position: center center;
     background-size: cover; }
   #ploshadkiItems .ploshItem2 {
-    background: url(../img/ploshItem2.webp) no-repeat no-repeat;
+    background: url(../img/ploshItem2.jpg) no-repeat no-repeat;
     background-position: center center;
     background-size: cover; }
   #ploshadkiItems .ploshItem3 {
-    background: url(../img/ploshItem3.webp) no-repeat no-repeat;
+    background: url(../img/ploshItem3.jpg) no-repeat no-repeat;
     background-position: center center;
     background-size: cover; }
   #ploshadkiItems .ploshItem4 {
-    background: url(../img/ploshItem4.webp) no-repeat no-repeat;
+    background: url(../img/ploshItem4.jpg) no-repeat no-repeat;
     background-position: center center;
     background-size: cover; }
 
@@ -254,6 +255,11 @@ section#find {
   padding-top: 60px;
   padding-bottom: 60px;
   position: relative; }
+  section#find div#para {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh; }
   section#find:before {
     content: '';
     position: absolute;
